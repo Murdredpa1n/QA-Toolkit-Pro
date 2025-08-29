@@ -1,6 +1,6 @@
 # QA Toolkit - Enterprise-Grade Manual Testing Extension
 
-![Version](https://img.shields.io/badge/version-1.7.6-blue.svg)
+![Version](https://img.shields.io/badge/version-1.7.7-blue.svg)
 ![Quality](https://img.shields.io/badge/quality-99.8%25-brightgreen.svg)
 ![Compliance](https://img.shields.io/badge/compliance-100%25-brightgreen.svg)
 ![Security](https://img.shields.io/badge/security-enhanced-red.svg)
@@ -166,14 +166,10 @@ QA Toolkit/
 ├── js/                      # Core utilities and systems
 │   ├── utils.js             # Enhanced utility functions with error handling
 │   ├── tool-functions.js    # Consolidated tool functions with detailed reporting
-│   ├── changelog.js         # Changelog display functionality
-│   ├── test-hooks.js        # Enhanced test hooks API with CI/CD integration
-│   ├── performance-benchmarking.js # Performance benchmarking system
 │   ├── documentation-generator.js # Automated documentation generation
 │   ├── intelligent-bug-reporting.js # Intelligent bug reporting system
 │   ├── optimization-utils.js # Performance optimization utilities
-│   ├── performance-monitor.js # Advanced performance monitoring system
-│   └── [40+ additional intelligent modules] # Advanced QA enhancement modules
+│   └── performance-monitor.js # Advanced performance monitoring system
 ├── css/                     # Design system and styling
 │   ├── design-system.css   # Professional design tokens and variables
 │   └── notifications.css   # Notification system styles
@@ -190,8 +186,7 @@ QA Toolkit/
 │   └── test-summary-generator.js   # Test summary generation functionality
 ├── manifest.json           # Manifest V3 with security permissions
 ├── CHANGELOG.md            # Comprehensive version history
-├── README.md              # Complete documentation (this file)
-└── ENHANCEMENTS_DOCUMENTATION.md # Detailed enhancements documentation
+└── README.md              # Complete documentation (this file)
 ```
 
 ### **Performance Optimizations**
