@@ -6,9 +6,8 @@
 - [Enterprise-Grade Quality](#-enterprise-grade-quality)
 - [Architecture](#-architecture)
 - [Installation](#-installation)
-- [File Structure](#-file-structure)
 - [QA Verification](#-qa-verification)
-- [Single .MD File Policy](#-single-md-file-policy)
+- [Unified QA Tools](#-unified-qa-tools)
 
 ## 🎯 Overview
 
@@ -96,15 +95,6 @@ QA Toolkit/
 4. Click "Load unpacked" and select the extension directory
 5. Pin the extension icon to your toolbar
 
-## 📁 File Structure
-
-The extension has been optimized with a clean, streamlined file structure:
-
-- Removed redundant documentation files
-- Consolidated duplicate functionality
-- Maintained only essential components
-- Preserved full functionality while reducing complexity
-
 ## 🤖 QA Verification
 
 This extension includes an automatic QA verification system that ensures 100% stability, optimization, security, UX/UI quality, and QA coverage after each iteration.
@@ -125,9 +115,9 @@ The verification system automatically checks:
 npm run qa-verify
 ```
 
-### Unified QA Tools
+## 🔧 Unified QA Tools
 
-The extension includes a unified QA tools script that consolidates all QA-related commands into a single interface:
+The extension includes a unified QA tools system that consolidates all QA-related commands into a single interface:
 
 ```
 # Run the unified QA tools
@@ -145,17 +135,5 @@ Available commands:
 - `readme` - Update README with new content
 - `icons` - Generate missing PNG icons from SVG
 - `install` - Run installation verification
-
-## 📝 Single .MD File Policy
-
-To maintain project cleanliness and portability, this project now enforces a strict single .md file policy:
-
-- Only `README.md` is allowed in the project root
-- All other .md files are automatically removed by the validation system
-- This includes CHANGELOG.md, LICENSE, SECURITY.md, and any documentation files
-- Version history and documentation are now contained within README.md
-- The automated validation system will automatically delete any unauthorized .md files
-
-This policy ensures zero local path references and maintains project portability for seamless sharing with team members.
-
-For a complete version history and detailed release notes, see [CHANGELOG.md](CHANGELOG.md).
+- `cleanup` - Remove unnecessary files and optimize the extension
+- `export` - Perform export validation to ensure compatibility
